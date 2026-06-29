@@ -1,4 +1,4 @@
-const {ask} = require("./input");
+const { ask } = require("./input");
 
 async function power() {
     const base = Number(await ask("Enter the base: "));

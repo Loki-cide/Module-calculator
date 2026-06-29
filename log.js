@@ -1,4 +1,4 @@
-const {ask} = require("./input");
+const { ask } = require("./input");
 
 async function log() {
     const num = Number(await ask("Enter a number: "));

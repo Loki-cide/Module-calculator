@@ -1,4 +1,4 @@
-const {ask} = require("./input");
+const { ask } = require("./input");
 
 async function trigonometry() {
     console.log("\nTrigonometric Calculator");

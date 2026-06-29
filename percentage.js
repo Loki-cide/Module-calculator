@@ -1,4 +1,4 @@
-const {ask} = require("./input");
+const { ask } = require("./input");
 
 async function percentage() {
     const a = Number(await ask("Enter a: "));

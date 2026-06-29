@@ -6,10 +6,10 @@ const r1 = readline.createInterface({
     output: process.stdout
 });
 
-function ask(question){
-    return new Promise((resolve) =>{
+function ask(question) {
+    return new Promise((resolve) => {
         r1.question(question, resolve);
     });
 }
 
-module.exports = {ask, r1};
+module.exports = { ask, r1 };
