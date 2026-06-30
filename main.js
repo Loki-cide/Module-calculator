@@ -12,7 +12,8 @@ const operations = {
     9: require("./factorial"),
     10: require("./prime"),
     11: require("./unit convert"),
-    12: require("./random")
+    12: require("./random"),
+    13: require("./coin")
 };
 
 async function main() {
@@ -29,6 +30,7 @@ async function main() {
     console.log("10: Prime number check");
     console.log("11: Unit Conversion");
     console.log("12: Random Numver Generator");
+    console.log("13: Coin Flip");
 
     const choice = await ask("Choose an operation: ");
     if (operations[choice]) {

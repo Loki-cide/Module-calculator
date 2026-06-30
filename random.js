@@ -1,6 +1,6 @@
-const {ask} = require("./input");
+const { ask } = require("./input");
 
-async function random(){
+async function random() {
     const num1 = Number(await ask("Enter minimum number: "));
     const num2 = Number(await ask("Enter maximum number: "));
 
