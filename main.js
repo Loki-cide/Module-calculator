@@ -9,7 +9,9 @@ const operations = {
     6: require("./power"),
     7: require("./root"),
     8: require("./log"),
-    9: require("./factorial")
+    9: require("./factorial"),
+    10: require("./prime"),
+    11: require("./unit convert")
 };
 
 async function main() {
@@ -23,6 +25,8 @@ async function main() {
     console.log("7: Nth root");
     console.log("8: log");
     console.log("9: Factorial");
+    console.log("10: Prime number check");
+    console.log("11: Unit Conversion");
 
     const choice = await ask("Choose an operation: ");
     if (operations[choice]) {
